@@ -75,7 +75,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/yusluv124"
+                  href="https://twitter.com/therealjolayemi"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -85,7 +85,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/yusluv124/"
+                  href="https://www.linkedin.com/in/jolayemi-yusuf-840076b6"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -95,7 +95,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/agba_dev/"
+                  href="https://www.instagram.com/therealjolayemi"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

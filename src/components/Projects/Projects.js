@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import chatify from "../../Assets/calculator.png";
 import editor from "../../Assets/errandlr.jpg";
 import leaf from "../../Assets/greenbrain.png";
+import Kadoshi from "../../Assets/kadoshi.jpg";
 import Weather from "../../Assets/my-weather-app.png";
 import Particle from "../Particle";
 import ProjectCard from "./ProjectCards";
@@ -20,6 +21,27 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="ErrandLR"
+              description="This website is a Logistic web app build with React, TypeScript, Tailwind-CSS E.T.C i work in Errandlr as a Frontend Developer and a very user friendly interface with a very great responsiveness"
+              link="https://errandlr.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Kadoshi}
+              isBlog={false}
+              title="Kadoshi"
+              description="I work as a Software Engineer and a very user friendly interface with a very great responsiveness"
+              link="https://kadoshiservices.com/"
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -40,15 +62,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="ErrandLR"
-              description="This website is a Logistic web app build with React, TypeScript, Tailwind-CSS E.T.C i work in Errandlr as a Frontend Developer and a very user friendly interface with a very great responsiveness"
-              link="https://errandlr.com/"
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard

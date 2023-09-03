@@ -4,12 +4,12 @@ import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import pdf from "../../Assets/Jolayemi_VisualCV_Resume.pdf";
+import pdf from "../../Assets/Jolayemi__cv01.pdf";
 import Particle from "../Particle";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink =
-  "https://www.visualcv.com/app/cvs/6655978/preview";
+// const resumeLink =
+//   "https://www.visualcv.com/app/cvs/6655978/preview";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -18,7 +18,7 @@ function ResumeNew() {
     setNumPages(numPages);
   }
   const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
+  const [pageNumber, setPageNumber] = useState(1, 2, 3,);
 
 
   useEffect(() => {

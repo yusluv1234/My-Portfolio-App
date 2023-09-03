@@ -31,7 +31,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/">
-          <div className="fw-bold fs-1 text-xl text-ndigo-300">J Y .</div>
+          <div className="fw-bold fs-1 text-xl text-ndigo-300">JOLAYEMI</div>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
